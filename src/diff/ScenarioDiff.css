@@ -1,0 +1,29 @@
+textarea {
+  display: block;
+  width: 100%;
+  height: 16rem;
+  outline: 0;
+  resize: none;
+  border-width: 0.5px;
+  border-color: #cbd5e0;
+}
+
+textarea:focus {
+  border-color: #718096;
+}
+
+textarea.error {
+  background-color: #fff5f5;
+}
+
+textarea.correct {
+  background-color: #f0fff4;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
